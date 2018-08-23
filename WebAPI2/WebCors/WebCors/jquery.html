@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+<div class="container">
+    <ul>
+        <li id="produtos"><h1>Produtos</h1></li>
+    </ul>
+</div>
+<br>
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script>
+        $(document).ready(function()
+        {
+            var url = 'http://localhost:2982/api/Products';
+            $.ajax({
+                dataType: "json",
+                url: url,
+                success: function(data)
+                {
+                    $.each(data,
+                        function(index, item)
+                        {
+                            $("#produtos").append("<li>" + "Produto "+item.Id+": "+item.Name + "</li>");
+                        });
+                }
+
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+c:\users\igors\documents\visual studio 2013\Projects\WebCors\WebCors\bin\WebCors.dll.config
+c:\users\igors\documents\visual studio 2013\Projects\WebCors\WebCors\bin\WebCors.dll
+c:\users\igors\documents\visual studio 2013\Projects\WebCors\WebCors\bin\WebCors.pdb
+c:\users\igors\documents\visual studio 2013\Projects\WebCors\WebCors\obj\Debug\WebCors.csprojResolveAssemblyReference.cache
+c:\users\igors\documents\visual studio 2013\Projects\WebCors\WebCors\obj\Debug\WebCors.dll
+c:\users\igors\documents\visual studio 2013\Projects\WebCors\WebCors\obj\Debug\WebCors.pdb
